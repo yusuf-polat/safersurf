@@ -1,0 +1,17 @@
+// vite.config.js
+import { defineConfig } from "file:///D:/Node%20Js/nano/node_modules/vite/dist/node/index.js";
+import { dreamlandPlugin } from "file:///D:/Node%20Js/nano/node_modules/vite-plugin-dreamland/dist/index.js";
+import { ChemicalVitePlugin } from "file:///D:/Node%20Js/nano/node_modules/chemicaljs/index.js";
+var vite_config_default = defineConfig({
+  plugins: [
+    ChemicalVitePlugin({
+      scramjet: false,
+      rammerhead: false
+    }),
+    dreamlandPlugin()
+  ]
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJEOlxcXFxOb2RlIEpzXFxcXG5hbm9cIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkQ6XFxcXE5vZGUgSnNcXFxcbmFub1xcXFx2aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vRDovTm9kZSUyMEpzL25hbm8vdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tIFwidml0ZVwiO1xyXG5pbXBvcnQgeyBkcmVhbWxhbmRQbHVnaW4gfSBmcm9tIFwidml0ZS1wbHVnaW4tZHJlYW1sYW5kXCI7XHJcbmltcG9ydCB7IENoZW1pY2FsVml0ZVBsdWdpbiB9IGZyb20gXCJjaGVtaWNhbGpzXCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xyXG4gICAgcGx1Z2luczogW1xyXG4gICAgICAgIENoZW1pY2FsVml0ZVBsdWdpbih7XHJcbiAgICAgICAgICAgIHNjcmFtamV0OiBmYWxzZSxcclxuICAgICAgICAgICAgcmFtbWVyaGVhZDogZmFsc2UsXHJcbiAgICAgICAgfSksXHJcbiAgICAgICAgZHJlYW1sYW5kUGx1Z2luKCksXHJcbiAgICBdLFxyXG59KTtcclxuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUF1TyxTQUFTLG9CQUFvQjtBQUNwUSxTQUFTLHVCQUF1QjtBQUNoQyxTQUFTLDBCQUEwQjtBQUVuQyxJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUN4QixTQUFTO0FBQUEsSUFDTCxtQkFBbUI7QUFBQSxNQUNmLFVBQVU7QUFBQSxNQUNWLFlBQVk7QUFBQSxJQUNoQixDQUFDO0FBQUEsSUFDRCxnQkFBZ0I7QUFBQSxFQUNwQjtBQUNKLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
